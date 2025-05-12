@@ -1,0 +1,30 @@
+# main repository to fetch from
+repo = "helix-editor/helix"
+
+# the repository's branch
+remote-branch = "master"
+
+# This is the branch where you will see all result from patchy's work. Set it to any branch you want.
+# WARNING: Make sure you do not store any important work on this branch. It will be erased.
+local-branch = "emerald"
+
+# List of pull requests which you would like to merge
+# TIP: Add comments above pull requests to help yourself understand which PRs do what
+pull-requests = [
+  # # Create, delete files in explorer above
+  # "12902",
+  # case change
+  "12043",
+  # icon support
+  "12369",
+  # clickable bufferline
+  "12173",
+  # Status line treesitter path
+  "8407",
+  # Word completion
+  "13206"
+]
+
+patches = []
+
+
